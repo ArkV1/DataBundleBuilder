@@ -1,10 +1,14 @@
 # Data Bundle Builder from Firebase Firestore
 
-# Requirements
-Do not forget to install Firebase CLI |
-  otherwise you will experience authentication problems with no error messages
+Build data bundle from Firestore documents for offline use or for data delivery via CDN
 
-# Notes
+- [ ] Create CLI interface
+
+## Requirements
+Do not forget to install Firebase CLI
+  - otherwise you will experience authentication problems with no error messages
+
+### Notes
 
 Removing sensitive data from a repository
 ```
@@ -13,7 +17,7 @@ $ java -jar C:\tools\bfg-1.14.0.jar --delete-files project-n1-1f74e-firebase-adm
 $ git push --force
 ```
 
-# PYTHON Cheat sheet
+### PYTHON Cheat sheet
 
 Create virtual environment and activate it
 ```
