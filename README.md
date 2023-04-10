@@ -6,7 +6,7 @@ Build data bundle from Firestore documents for offline use or for data delivery 
 
 ## Requirements
 Do not forget to install Firebase CLI
-- otherwise you will experience authentication problems with no error messages
+> you will experience authentication problems with no error messages if it isnt installed
 
 ### Notes
 
