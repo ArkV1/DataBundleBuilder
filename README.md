@@ -1,9 +1,10 @@
-# Data Bundle Builder
+# Data Bundle Builder from Firebase Firestore
 
-# REQUIREMENTS
-Do not forget to install Firebase CLI | otherwise you will experience authentication problems with no error messages
+# Requirements
+Do not forget to install Firebase CLI |
+  otherwise you will experience authentication problems with no error messages
 
-# NOTES
+# Notes
 
 Removing sensitive data from a repository
 ```
@@ -12,7 +13,7 @@ $ java -jar C:\tools\bfg-1.14.0.jar --delete-files project-n1-1f74e-firebase-adm
 $ git push --force
 ```
 
-# PYTHON
+# PYTHON Cheat sheet
 
 Create virtual environment and activate it
 ```
