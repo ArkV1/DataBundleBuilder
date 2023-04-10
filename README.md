@@ -2,7 +2,7 @@
 
 Build data bundle from Firestore documents for offline use or for data delivery via CDN
 
-- [ ] Create CLI interface
+- [ ] Create CLI wrapper
 
 ## Requirements
 Do not forget to install Firebase CLI
@@ -17,7 +17,7 @@ $ java -jar C:\tools\bfg-1.14.0.jar --delete-files project-n1-1f74e-firebase-adm
 $ git push --force
 ```
 
-### PYTHON Cheat sheet
+### Python Cheat sheet
 
 Create virtual environment and activate it
 ```
