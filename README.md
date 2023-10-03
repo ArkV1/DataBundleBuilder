@@ -2,6 +2,7 @@
 
 # REQUIREMENTS
 Do not forget to install Firebase CLI | otherwise you will experience authentication problems with no error messages
+Other such errors might be caused by wront time set on your machine
 
 # NOTES
 
@@ -28,4 +29,9 @@ pip install -r requirements.txt
 Create requirements.txt 
 ```
 pip freeze > requirements.txt
+```
+
+Packages update on windows: 
+```
+pip freeze | %{$_.split('==')[0]} | %{pip install --upgrade $_}
 ```
